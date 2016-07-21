@@ -10,7 +10,7 @@ from rest_framework.response import Response
 
 # Create your views here.
 def index(request):
-	return HttpResponse("Hello world")
+	return HttpResponse("People visting to a co-working space")
 
 # ViewSets define the view behavior.
 class UserViewSet(APIView):
